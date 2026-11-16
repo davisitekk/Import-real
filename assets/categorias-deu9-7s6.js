@@ -1,0 +1,1 @@
+import{A as e}from"./search-Cwm794Y7.js";import{n as t}from"./ui-D38EjrY0.js";var n=e(),r=()=>(0,n.jsx)(t,{title:`Categoria não encontrada`});export{r as notFoundComponent};
