@@ -1,0 +1,19 @@
+[build]
+  # This repository contains prebuilt static files only, so there is no build step.
+  publish = "."
+  command = ""
+
+  [build.environment]
+  NODE_VERSION = "22"
+
+[[headers]]
+  for = "/assets/*"
+
+  [headers.values]
+  Cache-Control = "public, max-age=31536000, immutable"
+
+# Single-page app fallback: every route (/loja, /auth, /dashboard...) is rendered by the client bundle.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
