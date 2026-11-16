@@ -1,0 +1,1 @@
+import{A as e}from"./search-Cwm794Y7.js";import{c as t}from"./ui-D38EjrY0.js";import{o as n}from"./format-D2CjmktS.js";var r=e(),i=({error:e})=>(0,r.jsx)(t,{children:(0,r.jsxs)(`p`,{className:`text-sm text-destructive`,children:[`Erro ao carregar fornecedores. `,n(e)]})});export{i as errorComponent};
